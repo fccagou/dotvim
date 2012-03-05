@@ -1,1 +1,9 @@
-My vim environment.
+My vim environment
+==================
+
+Excellent pathogen script :
+::
+
+ mkdir ~/.vimrc/{autoload,bundle}
+ curl -so ~/.vimrc/autoload/pathogen.vim https://raw.github.com/tpope/vim-pathogen/HEAD/autoload/pathogen.vim
+
