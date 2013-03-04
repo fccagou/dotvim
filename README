@@ -6,7 +6,7 @@ Excellent pathogen script :
 ::
 
  mkdir -p ~/.vim/{autoload,bundle}
- curl -so ~/.vimrc/autoload/pathogen.vim https://raw.github.com/tpope/vim-pathogen/HEAD/autoload/pathogen.vim
+ curl -so ~/.vim/autoload/pathogen.vim https://raw.github.com/tpope/vim-pathogen/HEAD/autoload/pathogen.vim
 
 
 Python submodules
