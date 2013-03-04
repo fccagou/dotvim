@@ -5,7 +5,7 @@ My vim environment
 Excellent pathogen script :
 ::
 
- mkdir ~/.vimrc/{autoload,bundle}
+ mkdir -p ~/.vim/{autoload,bundle}
  curl -so ~/.vimrc/autoload/pathogen.vim https://raw.github.com/tpope/vim-pathogen/HEAD/autoload/pathogen.vim
 
 
@@ -18,7 +18,7 @@ PEP8
 Vérify python coding. User <F5> to check.
 ::
 
-  cd ~/.vimrc && git submodule add https://github.com/vim-scripts/pep8.git bundle/pep8
+  cd ~/.vim && git submodule add https://github.com/vim-scripts/pep8.git bundle/pep8
 
 
 
