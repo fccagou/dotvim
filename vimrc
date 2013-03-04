@@ -1,3 +1,6 @@
+" unmap <leader>t for Ocaml
+"unmap <LocalLeader>t
+
 " Running pathogen
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
